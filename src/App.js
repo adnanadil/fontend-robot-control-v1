@@ -8,7 +8,7 @@ const socket = io.connect("server-test-socketio.herokuapp.com");
 // const socket = io.connect("server-test-socketio.herokuapp.com", {'connect timeout': 1});
 
 function App() {
-  const [direction, setdirection] = useState("");
+  // const [direction, setdirection] = useState("");
 
   // const handleEvent = (event) => {
   //   if (event.type === "mousedown") {
