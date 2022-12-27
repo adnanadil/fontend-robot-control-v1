@@ -3,7 +3,9 @@ import io from "socket.io-client";
 import { useEffect, useState } from "react";
 
 // const socket = io.connect("http://localhost:3001");
-const socket = io.connect("https://socketio-server-telebot.onrender.com");
+const socket = io.connect("socket-io-server-utb-tele-bot.herokuapp.com");
+// const socket = io.connect("https://socketio-server-telebot.onrender.com");
+// const socket = io.connect("https://socket-io-server-robot-control-production.up.railway.app");
 // const socket = io.connect("server-test-socketio.herokuapp.com");
 // const socket = io.connect("server-test-socketio.herokuapp.com", {'connect timeout': 1});
 
